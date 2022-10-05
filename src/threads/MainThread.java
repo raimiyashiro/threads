@@ -34,7 +34,7 @@ public class MainThread {
 //            System.out.println(thread.isAlive());
 //        }
 
-        System.out.println("Exercise no 5: Thread should be death after execution");
+        System.out.println("Exercise no 5: Thread should be dead after execution");
         var deadThread = new AliveThread();
         var thread = new Thread(deadThread);
 
